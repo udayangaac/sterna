@@ -9,7 +9,12 @@ Golang version: > 1.19
 
 Example: 
 ```go
+package main
 
+import "github.com/udayangaac/sterna"
 
-
+func main() {
+	sterna := sterna.NewSterna()
+	sterna.Start()
+}
 ```
